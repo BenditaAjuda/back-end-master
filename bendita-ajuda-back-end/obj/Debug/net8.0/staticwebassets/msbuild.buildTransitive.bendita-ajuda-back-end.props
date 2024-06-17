@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\bendita-ajuda-back-end.props" />
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\bendita-ajuda-back-end.props" />
+</Project>
