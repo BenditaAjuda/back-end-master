@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Text.Json.Serialization;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -71,7 +72,35 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 			ValidateAudience = false		};
 	});
 
+builder.Services.AddCors();
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+	options.InvalidModelStateResponseFactory = actionContext =>
+	{
+		var errors = actionContext.ModelState
+		.Where(x => x.Value.Errors.Count > 0)
+		.SelectMany(x => x.Value.Errors)
+		.Select(x => x.ErrorMessage).ToArray();
+
+		var toReturn = new
+		{
+			Errors = errors
+		};
+
+		return new BadRequestObjectResult(toReturn);
+	};
+});
+
 var app = builder.Build();
+
+app.UseCors(options =>
+{
+	options.AllowAnyHeader().
+			AllowAnyMethod().
+			AllowCredentials().
+			WithOrigins("http://localhost:4200");
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -81,9 +110,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors(x => x.AllowAnyHeader()
-				  .AllowAnyMethod()
-				  .AllowAnyOrigin());
 
 app.UseAuthentication();
 app.UseAuthorization();

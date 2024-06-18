@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4AUI3WOiozQ=",
+  "dgSpecHash": "+QwCM4kexXc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rogerio.campos\\source\\repos\\benditaajuda1706\\back-end-master\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
+  "projectFilePath": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rogerio.campos\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rogerio.campos\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.2\\microsoft.aspnetcore.authentication.jwtbearer.8.0.2.nupkg.sha512",
