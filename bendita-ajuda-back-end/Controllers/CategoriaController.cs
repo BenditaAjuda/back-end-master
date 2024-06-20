@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using System;
+using bendita_ajuda_back_end.DTOs.Categoria;
+using Microsoft.AspNetCore.Authorization;
 
 namespace bendita_ajuda_back_end.Controllers
 {
@@ -20,6 +22,37 @@ namespace bendita_ajuda_back_end.Controllers
 		{
 			_repository = repository;
 			_logger = logger;
+		}
+
+		//aDescricao[Authorize]
+		[HttpGet("categoriasDescricao")]
+		public ActionResult<List<CategoriaDescricaoDto>> GetCategoriasDescricao()
+		{
+			List<CategoriaDescricaoDto> categoriaDescricao = new List<CategoriaDescricaoDto>();
+
+			CategoriaDescricaoDto item1 = new CategoriaDescricaoDto { Nome = "Alimentação", Descricao = "Preparo e fornecimento de refeições equilibradas e deliciosas, adaptadas às necessidades e preferências dos clientes.", Icone = "bi bi-egg-fried" };
+			CategoriaDescricaoDto item2 = new CategoriaDescricaoDto { Nome = "Construção", Descricao = "Execução de projetos de obras com qualidade, incluindo planejamento, edificação e reformas.", Icone = "bi bi-cone-striped" };
+			CategoriaDescricaoDto item3 = new CategoriaDescricaoDto { Nome = "Educação", Descricao = "Ensino e desenvolvimento de habilidades, promovendo aprendizado e crescimento contínuos.", Icone = "bi bi-backpack" };
+			CategoriaDescricaoDto item4 = new CategoriaDescricaoDto { Nome = "Saúde", Descricao = "Atendimento e cuidados médicos para promoção e manutenção da saúde.", Icone = "bi bi-bandaid" };
+			CategoriaDescricaoDto item5 = new CategoriaDescricaoDto { Nome = "Ar Condicionado", Descricao = "Instalação e manutenção de sistemas de climatização, garantindo conforto térmico e eficiência.", Icone = "bi bi-fan" };
+			CategoriaDescricaoDto item6 = new CategoriaDescricaoDto { Nome = "Marcenaria", Descricao = "Criação e reparo de móveis e estruturas em madeira, com design e acabamento personalizado.", Icone = "bi bi-hammer" };
+			CategoriaDescricaoDto item7 = new CategoriaDescricaoDto { Nome = "Elétrica", Descricao = "Instalação, reparo e manutenção de sistemas elétricos, garantindo segurança e eficiência energética.", Icone = "bi bi-screwdriver" };
+			CategoriaDescricaoDto item8 = new CategoriaDescricaoDto { Nome = "Decoração", Descricao = "lanejamento e execução de ambientes esteticamente agradáveis, adaptados ao estilo e funcionalidade desejados.", Icone = "bi bi-house" };
+			CategoriaDescricaoDto item9 = new CategoriaDescricaoDto { Nome = "Informática", Descricao = "Suporte e soluções para sistemas, redes e dispositivos, garantindo eficiência e segurança digital.", Icone = "bi bi-info-circle" };
+			CategoriaDescricaoDto item10 = new CategoriaDescricaoDto { Nome = "Babá", Descricao = "Cuidado infantil confiável e personalizado, incluindo supervisão, atividades lúdicas, alimentação, e higiene, proporcionando um ambiente seguro e acolhedor para crianças.", Icone = "bi bi-person-standing-dress" };
+
+			categoriaDescricao.Add(item1);
+			categoriaDescricao.Add(item2);
+			categoriaDescricao.Add(item3);
+			categoriaDescricao.Add(item4);
+			categoriaDescricao.Add(item5);
+			categoriaDescricao.Add(item6);
+			categoriaDescricao.Add(item7);
+			categoriaDescricao.Add(item8);
+			categoriaDescricao.Add(item9);
+			categoriaDescricao.Add(item10);
+
+			return Ok(categoriaDescricao);
 		}
 
 		[HttpGet]
