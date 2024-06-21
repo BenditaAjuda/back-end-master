@@ -68,7 +68,7 @@ namespace bendita_ajuda_back_end.Controllers
 			if (!result.Succeeded)
 				return BadRequest(result.Errors);
 
-			return Ok("Conta criada, pode logar");
+			return Ok(new JsonResult(new {title= "Conta criada", message= "Pode logar" }));
 		}
 
 		[Authorize]
