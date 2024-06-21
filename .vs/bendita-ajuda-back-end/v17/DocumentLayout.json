@@ -1,121 +1,129 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\",
+  "WorkspaceRootPath": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\repositories\\emailservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\emailservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\dtos\\emailsend\\emailsenddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\dtos\\emailsend\\emailsenddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\bendita-ajuda-back-end.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\dtos\\categoria\\categoriadescricaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\dtos\\categoria\\categoriadescricaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\dtos\\categoria\\categoriadescricaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\dtos\\conta\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\dtos\\conta\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\dtos\\conta\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\dtos\\conta\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\dtos\\conta\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\dtos\\conta\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\dtos\\conta\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\dtos\\conta\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\dtos\\conta\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\repositories\\authservices\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\repositories\\authservices\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\authservices\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\loggings\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\loggings\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\loggings\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\loggings\\customloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\loggings\\customloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\loggings\\customloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\migrations\\20240617151056_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\migrations\\20240617151056_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\migrations\\20240617151056_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\data\\benditaajudadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\data\\benditaajudadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\data\\benditaajudadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\controllers\\prestadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\controllers\\prestadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\prestadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\repositories\\services\\prestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\repositories\\services\\prestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\services\\prestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\repositories\\services\\servicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\repositories\\services\\servicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\services\\servicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\repositories\\services\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\repositories\\services\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\services\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\repositories\\interfaces\\iprestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\repositories\\interfaces\\iprestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\interfaces\\iprestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\repositories\\interfaces\\iservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\repositories\\interfaces\\iservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\interfaces\\iservicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\models\\servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\models\\servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\loggings\\customloggerproviderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\loggings\\customloggerproviderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\loggings\\customloggerproviderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -128,15 +136,15 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\migrations\\20240531002558_teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\migrations\\20240531002558_teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\migrations\\20240531002558_teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\migrations\\20240530211635_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\migrations\\20240530211635_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\migrations\\20240530211635_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\migrations\\20240620012216_1906.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\rogerio.campos\\desktop\\nova pasta\\conta-udemy\\bendita-ajuda-back-end\\migrations\\20240620012216_1906.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\migrations\\20240620012216_1906.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -147,19 +155,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "EmailSendDto.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\EmailSend\\EmailSendDto.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\EmailSend\\EmailSendDto.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\EmailSend\\EmailSendDto.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\EmailSend\\EmailSendDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T14:01:46.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\EmailService\\EmailService.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\EmailService\\EmailService.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\EmailService\\EmailService.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\EmailService\\EmailService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIBCwCAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:58:43.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\RegisterDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Conta\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\RegisterDto.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\Conta\\RegisterDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -167,11 +209,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "CustomLoggerProvider.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProvider.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProvider.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Loggings\\CustomLoggerProvider.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProvider.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProvider.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Loggings\\CustomLoggerProvider.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADwvxAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,11 +221,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CustomerLogger.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAQwB0AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,13 +233,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\appsettings.json",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\appsettings.json",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\appsettings.json",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\appsettings.json",
               "RelativeToolTip": "bendita-ajuda-back-end\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-28T01:56:16.901Z",
               "EditorCaption": ""
@@ -206,22 +248,22 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Program.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Program.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Program.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Program.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Program.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAIwFwAAAADAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwDQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T01:55:52.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "bendita-ajuda-back-end.csproj",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
               "RelativeToolTip": "bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -229,54 +271,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ContaController.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\ContaController.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\ContaController.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\ContaController.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\ContaController.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\ContaController.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\ContaController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAA4wEYAAABMAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAA4wFYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T17:18:57.147Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\CategoriaController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA3wBoAAAAOAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAABCwBoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T20:23:25.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "bendita-ajuda-back-end.http",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.http",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.http",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\bendita-ajuda-back-end.http",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.http",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\bendita-ajuda-back-end.http",
               "RelativeToolTip": "bendita-ajuda-back-end\\bendita-ajuda-back-end.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-30T20:27:45.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T20:27:45.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CategoriaDescricaoDto.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Categoria\\CategoriaDescricaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Categoria\\CategoriaDescricaoDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Categoria\\CategoriaDescricaoDto.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Categoria\\CategoriaDescricaoDto.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Categoria\\CategoriaDescricaoDto.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\Categoria\\CategoriaDescricaoDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -284,11 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\LoginDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Conta\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\LoginDto.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\Conta\\LoginDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -296,11 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "20240620012216_1906.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240620012216_1906.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240620012216_1906.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240620012216_1906.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240620012216_1906.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240620012216_1906.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Migrations\\20240620012216_1906.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -308,11 +345,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\UserDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Conta\\UserDto.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\UserDto.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\DTOs\\Conta\\UserDto.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\Conta\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -320,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "CustomLoggerProviderConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProviderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProviderConfiguration.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Loggings\\CustomLoggerProviderConfiguration.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProviderConfiguration.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProviderConfiguration.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Loggings\\CustomLoggerProviderConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -332,11 +369,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "JWTService.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\AuthServices\\JWTService.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\AuthServices\\JWTService.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\AuthServices\\JWTService.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\AuthServices\\JWTService.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\AuthServices\\JWTService.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\AuthServices\\JWTService.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAuwBsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,11 +381,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "20240617151056_Initial2.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240617151056_Initial2.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240617151056_Initial2.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240617151056_Initial2.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240617151056_Initial2.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240617151056_Initial2.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Migrations\\20240617151056_Initial2.cs",
               "ViewState": "AQIAAMkAAAAAAAAAAAAmwNgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -356,11 +393,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Models\\User\\User.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Models\\User\\User.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\User\\User.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Models\\User\\User.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Models\\User\\User.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Models\\User\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -368,11 +405,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Properties\\launchSettings.json",
               "RelativeToolTip": "bendita-ajuda-back-end\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -380,11 +417,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "BenditaAjudaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Data\\BenditaAjudaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Data\\BenditaAjudaDbContext.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Data\\BenditaAjudaDbContext.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Data\\BenditaAjudaDbContext.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Data\\BenditaAjudaDbContext.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Data\\BenditaAjudaDbContext.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAADgvxAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -392,11 +429,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ServicoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\ServicoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\ServicoRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\ServicoRepository.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\ServicoRepository.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\ServicoRepository.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Services\\ServicoRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAqwBUAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -404,11 +441,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "IServicoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicoRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicoRepository.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicoRepository.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicoRepository.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -416,11 +453,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
               "ViewState": "AQIAABwAAAAAAAAAAADwvwoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -428,11 +465,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ServicoController.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAMBSwB4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -440,11 +477,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Prestador.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Models\\Prestador.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Models\\Prestador.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\Prestador.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Models\\Prestador.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Models\\Prestador.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Models\\Prestador.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -452,11 +489,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "PrestadorController.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAMBSwBIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -464,11 +501,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "PrestadorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAxwBQAAACVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -476,11 +513,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ICategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -488,11 +525,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "IPrestadorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IPrestadorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IPrestadorRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Interfaces\\IPrestadorRepository.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IPrestadorRepository.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IPrestadorRepository.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Interfaces\\IPrestadorRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -500,11 +537,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Models\\Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Models\\Categoria.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Models\\Categoria.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAIBAwBcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -512,11 +549,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Servico.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Models\\Servico.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Models\\Servico.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\Servico.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Models\\Servico.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Models\\Servico.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Models\\Servico.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAMBSwBQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -524,11 +561,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "20240531002558_teste.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240531002558_teste.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240531002558_teste.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240531002558_teste.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240531002558_teste.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240531002558_teste.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Migrations\\20240531002558_teste.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -536,44 +573,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "20240528020347_Inicial2.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020347_Inicial2.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020347_Inicial2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020347_Inicial2.cs",
               "ToolTip": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020347_Inicial2.cs",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020347_Inicial2.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020347_Inicial2.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T02:03:47.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "20240530211023_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda\\back-end\\bendita-ajuda-back-end\\Migrations\\20240530211023_Initial.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\bendita-ajuda\\back-end\\bendita-ajuda-back-end\\Migrations\\20240530211023_Initial.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Casa\\source\\repos\\bendita-ajuda\\back-end\\bendita-ajuda-back-end\\Migrations\\20240530211023_Initial.cs",
               "ToolTip": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda\\back-end\\bendita-ajuda-back-end\\Migrations\\20240530211023_Initial.cs",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\bendita-ajuda\\back-end\\bendita-ajuda-back-end\\Migrations\\20240530211023_Initial.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Casa\\source\\repos\\bendita-ajuda\\back-end\\bendita-ajuda-back-end\\Migrations\\20240530211023_Initial.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T21:10:23.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "20240528020232_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs",
               "ToolTip": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T02:02:32.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "20240530211635_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240530211635_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240530211635_Initial.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240530211635_Initial.cs",
-              "ToolTip": "C:\\Users\\Casa\\Desktop\\2006\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240530211635_Initial.cs",
+              "ToolTip": "C:\\Users\\rogerio.campos\\Desktop\\Nova pasta\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240530211635_Initial.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Migrations\\20240530211635_Initial.cs",
               "ViewState": "AQIAAF4AAAAAAAAAAAAswGEAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

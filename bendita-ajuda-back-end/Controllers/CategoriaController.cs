@@ -24,7 +24,7 @@ namespace bendita_ajuda_back_end.Controllers
 			_logger = logger;
 		}
 
-		//aDescricao[Authorize]
+		[Authorize]
 		[HttpGet("categoriasDescricao")]
 		public ActionResult<List<CategoriaDescricaoDto>> GetCategoriasDescricao()
 		{

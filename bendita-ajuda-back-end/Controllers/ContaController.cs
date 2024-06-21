@@ -1,12 +1,16 @@
 ﻿using bendita_ajuda_back_end.DTOs.Conta;
+using bendita_ajuda_back_end.DTOs.EmailSend;
 using bendita_ajuda_back_end.Models.User;
 using bendita_ajuda_back_end.Repositories.AuthServices;
+using bendita_ajuda_back_end.Repositories.EmailService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using System.Text;
 
 namespace bendita_ajuda_back_end.Controllers
 {
@@ -17,14 +21,20 @@ namespace bendita_ajuda_back_end.Controllers
 		private readonly JWTService _jwtService;
 		private readonly SignInManager<User> _signInManager;
 		private readonly UserManager<User> _userManager;
+		private readonly EmailService _emailService;
+		private readonly IConfiguration _configuration;
 
 		public ContaController(UserManager<User> userManager,
 							   JWTService jwtService,
-							   SignInManager<User> signInManager)
+							   SignInManager<User> signInManager,
+							   EmailService emailService,
+							   IConfiguration configuration)
 		{
 			_userManager = userManager;
 			_jwtService = jwtService;
 			_signInManager = signInManager;
+			_emailService = emailService;
+			_configuration = configuration;
 		}
 
 		[HttpPost("login")]
@@ -60,7 +70,6 @@ namespace bendita_ajuda_back_end.Controllers
 				LastName = registerDto.LastName.ToLower(),
 				UserName = registerDto.Email.ToLower(),
 				Email = registerDto.Email.ToLower(),
-				EmailConfirmed = true
 			};
 
 			var result = await _userManager.CreateAsync(userToAdd, registerDto.Password);
@@ -68,7 +77,19 @@ namespace bendita_ajuda_back_end.Controllers
 			if (!result.Succeeded)
 				return BadRequest(result.Errors);
 
-			return Ok(new JsonResult(new {title= "Conta criada", message= "Pode logar" }));
+				try
+				{
+					if(await SendConfirmEMailAsync(userToAdd))
+					{
+						return Ok(new JsonResult(new {title= "Conta criada", message= "Confirme seu email" }));
+					}
+					return BadRequest("Falha ao enviar o email");
+				}
+				catch (Exception ex)
+				{
+					return BadRequest("Falha ao enviar o email");
+				}
+			
 		}
 
 		[Authorize]
@@ -92,6 +113,23 @@ namespace bendita_ajuda_back_end.Controllers
 				LastName = user.LastName,
 				JWT = _jwtService.CreateJWT(user)
 			};
+		}
+
+		private async Task<bool> SendConfirmEMailAsync(User user)
+		{
+			var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+			token = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
+			var url = $"{_configuration["JWT:ClientUrl"]}/{_configuration["Email:ConfirmEmailPath"]}?token={token}&email={user.Email}";
+
+			var body = $"<p>Hello: {user.FirstName} {user.LastName}</p>" +
+				"<p>Confirme seu email clicando no link.</p>" +
+				$"<p><a href=\"{url}\">Clique aqui</a></p>" +
+				"<p>Obrigado,</p>" +
+				$"<br>{_configuration["Email:ApplicationName"]}";
+
+			var emailSend = new EmailSendDto(user.Email, "Confirme seu email", body);
+
+			return await _emailService.SendEmailAsync(emailSend);
 		}
 	}
 }
