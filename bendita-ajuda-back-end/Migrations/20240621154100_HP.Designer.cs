@@ -12,8 +12,8 @@ using bendita_ajuda_back_end.Data;
 namespace bendita_ajuda_back_end.Migrations
 {
     [DbContext(typeof(BenditaAjudaDbContext))]
-    [Migration("20240617151056_Initial2")]
-    partial class Initial2
+    [Migration("20240621154100_HP")]
+    partial class HP
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
