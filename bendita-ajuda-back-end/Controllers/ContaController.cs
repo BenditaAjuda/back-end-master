@@ -131,7 +131,7 @@ namespace bendita_ajuda_back_end.Controllers
             {
                 if (await SendConfirmEMailAsync(user))
                 {
-                    return Ok(new JsonResult(new { title = "Link enviado", message = "Favor confirmar seu email" }));
+                    return Ok(new JsonResult(new { title = "Link enviado", message = "Confirme seu email" }));
                 }
 
                 return BadRequest("Falha ao enviar email, contate administrador");
@@ -156,7 +156,7 @@ namespace bendita_ajuda_back_end.Controllers
             {
                 if (await SendForgotUsernameOrPasswordEmail(user))
                 {
-                    return Ok(new JsonResult(new { title = "Email de recuperação enviado", message = "Favor conferir seu email" }));
+                    return Ok(new JsonResult(new { title = "Email de recuperação enviado", message = "Confirme seu email" }));
                 }
 
                 return BadRequest("Falha ao enviar email, contate administrador");
@@ -171,8 +171,8 @@ namespace bendita_ajuda_back_end.Controllers
         public async Task<IActionResult> ResetPassword(ResetPasswordDto resetPasswordDto)
         {
             var user = await _userManager.FindByEmailAsync(resetPasswordDto.Email);
-            if (user == null) return Unauthorized("This email address has not been registerd yet");
-            if (user.EmailConfirmed == false) return BadRequest("PLease confirm your email address first");
+            if (user == null) return Unauthorized("Esse email ainda não foi cadastrado");
+            if (user.EmailConfirmed == false) return BadRequest("Confirme seu email");
 
             try
             {
@@ -223,7 +223,7 @@ namespace bendita_ajuda_back_end.Controllers
 			token = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
 			var url = $"{_configuration["JWT:ClientUrl"]}/{_configuration["Email:ConfirmEmailPath"]}?token={token}&email={user.Email}";
 
-			var body = $"<p>Hello: {user.FirstName} {user.LastName}</p>" +
+			var body = $"<p>Ola: {user.FirstName} {user.LastName}</p>" +
 				"<p>Confirme seu email clicando no link.</p>" +
 				$"<p><a href=\"{url}\">Clique aqui</a></p>" +
 				"<p>Obrigado,</p>" +
@@ -240,14 +240,14 @@ namespace bendita_ajuda_back_end.Controllers
             token = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
             var url = $"{_configuration["JWT:ClientUrl"]}/{_configuration["Email:ResetPasswordPath"]}?token={token}&email={user.Email}";
 
-            var body = $"<p>Hello: {user.FirstName} {user.LastName}</p>" +
-               $"<p>Username: {user.UserName}.</p>" +
-               "<p>In order to reset your password, please click on the following link.</p>" +
+            var body = $"<p>Ola: {user.FirstName} {user.LastName}</p>" +
+               $"<p>Usuário: {user.UserName}.</p>" +
+               "<p>Para recuperar sua conta clique no link.</p>" +
                $"<p><a href=\"{url}\">Click here</a></p>" +
-               "<p>Thank you,</p>" +
+               "<p>Obrigado,</p>" +
                $"<br>{_configuration["Email:ApplicationName"]}";
 
-            var emailSend = new EmailSendDto(user.Email, "Forgot username or password", body);
+            var emailSend = new EmailSendDto(user.Email, "Recuperar conta", body);
 
             return await _emailService.SendEmailAsync(emailSend);
         }
