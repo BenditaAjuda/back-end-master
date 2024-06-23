@@ -14,6 +14,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using bendita_ajuda_back_end.Repositories.EmailService;
+using bendita_ajuda_back_end.Repositories.ContextSeedService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,6 +52,7 @@ builder.Services.AddIdentityCore<User>(options =>
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<IPrestadorRepository, PrestadorRepository>();
 builder.Services.AddScoped<EmailService>();
+builder.Services.AddScoped<ContextSeedService>();
 
 builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderConfiguration
 {
@@ -118,5 +120,17 @@ app.UseAuthorization();
 
 
 app.MapControllers();
+
+using var scope = app.Services.CreateScope();
+try
+{
+	var contextSeedService = scope.ServiceProvider.GetService<ContextSeedService>();
+	await contextSeedService.InitializeContextAsync();
+}
+catch (Exception ex)
+{
+	var logger = scope.ServiceProvider.GetService<ILogger<Program>>();
+	logger.LogError(ex.Message, "Falha ao inicializar database");
+}
 
 app.Run();
