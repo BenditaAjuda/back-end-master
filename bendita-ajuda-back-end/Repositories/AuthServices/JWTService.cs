@@ -22,10 +22,9 @@ namespace bendita_ajuda_back_end.Repositories.AuthServices
 			var userClaims = new List<Claim>
 			{
 				new Claim(ClaimTypes.NameIdentifier, user.Id),
-				new Claim(ClaimTypes.Email, user.Email),
+				new Claim(ClaimTypes.Email, user.UserName),
 				new Claim(ClaimTypes.GivenName, user.FirstName),
-				new Claim(ClaimTypes.Surname, user.LastName),
-				new Claim("nivel de acesso", "admin"),
+				new Claim(ClaimTypes.Surname, user.LastName)
 			};
 
 			var credentials = new SigningCredentials(_symmetricSecurityKey, SecurityAlgorithms.HmacSha512Signature);

@@ -7,30 +7,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace bendita_ajuda_back_end.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial2 : Migration
+    public partial class HP : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterColumn<string>(
-                name: "Nome",
-                table: "Prestadores",
-                type: "longtext",
-                nullable: true,
-                oldClrType: typeof(string),
-                oldType: "longtext")
-                .Annotation("MySql:CharSet", "utf8mb4")
-                .OldAnnotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.AlterColumn<string>(
-                name: "Endereco",
-                table: "Prestadores",
-                type: "longtext",
-                nullable: true,
-                oldClrType: typeof(string),
-                oldType: "longtext")
-                .Annotation("MySql:CharSet", "utf8mb4")
-                .OldAnnotation("MySql:CharSet", "utf8mb4");
+            migrationBuilder.AlterDatabase()
+                .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
@@ -88,6 +71,42 @@ namespace bendita_ajuda_back_end.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "Categorias",
+                columns: table => new
+                {
+                    CategoriaId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nome = table.Column<string>(type: "varchar(80)", maxLength: 80, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Descricao = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    ImagemUrl = table.Column<string>(type: "varchar(300)", maxLength: 300, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categorias", x => x.CategoriaId);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "Prestadores",
+                columns: table => new
+                {
+                    PrestadorId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nome = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Endereco = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Prestadores", x => x.PrestadorId);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -218,6 +237,55 @@ namespace bendita_ajuda_back_end.Migrations
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
+            migrationBuilder.CreateTable(
+                name: "Servicos",
+                columns: table => new
+                {
+                    ServicoId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Nome = table.Column<string>(type: "varchar(80)", maxLength: 80, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    ImagemUrl = table.Column<string>(type: "varchar(300)", maxLength: 300, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    CategoriaId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Servicos", x => x.ServicoId);
+                    table.ForeignKey(
+                        name: "FK_Servicos_Categorias_CategoriaId",
+                        column: x => x.CategoriaId,
+                        principalTable: "Categorias",
+                        principalColumn: "CategoriaId",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "PrestadorServico",
+                columns: table => new
+                {
+                    PrestadoresPrestadorId = table.Column<int>(type: "int", nullable: false),
+                    ServicosServicoId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PrestadorServico", x => new { x.PrestadoresPrestadorId, x.ServicosServicoId });
+                    table.ForeignKey(
+                        name: "FK_PrestadorServico_Prestadores_PrestadoresPrestadorId",
+                        column: x => x.PrestadoresPrestadorId,
+                        principalTable: "Prestadores",
+                        principalColumn: "PrestadorId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_PrestadorServico_Servicos_ServicosServicoId",
+                        column: x => x.ServicosServicoId,
+                        principalTable: "Servicos",
+                        principalColumn: "ServicoId",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -254,6 +322,16 @@ namespace bendita_ajuda_back_end.Migrations
                 table: "AspNetUsers",
                 column: "NormalizedUserName",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_PrestadorServico_ServicosServicoId",
+                table: "PrestadorServico",
+                column: "ServicosServicoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Servicos_CategoriaId",
+                table: "Servicos",
+                column: "CategoriaId");
         }
 
         /// <inheritdoc />
@@ -275,46 +353,22 @@ namespace bendita_ajuda_back_end.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "PrestadorServico");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
 
-            migrationBuilder.UpdateData(
-                table: "Prestadores",
-                keyColumn: "Nome",
-                keyValue: null,
-                column: "Nome",
-                value: "");
+            migrationBuilder.DropTable(
+                name: "Prestadores");
 
-            migrationBuilder.AlterColumn<string>(
-                name: "Nome",
-                table: "Prestadores",
-                type: "longtext",
-                nullable: false,
-                oldClrType: typeof(string),
-                oldType: "longtext",
-                oldNullable: true)
-                .Annotation("MySql:CharSet", "utf8mb4")
-                .OldAnnotation("MySql:CharSet", "utf8mb4");
+            migrationBuilder.DropTable(
+                name: "Servicos");
 
-            migrationBuilder.UpdateData(
-                table: "Prestadores",
-                keyColumn: "Endereco",
-                keyValue: null,
-                column: "Endereco",
-                value: "");
-
-            migrationBuilder.AlterColumn<string>(
-                name: "Endereco",
-                table: "Prestadores",
-                type: "longtext",
-                nullable: false,
-                oldClrType: typeof(string),
-                oldType: "longtext",
-                oldNullable: true)
-                .Annotation("MySql:CharSet", "utf8mb4")
-                .OldAnnotation("MySql:CharSet", "utf8mb4");
+            migrationBuilder.DropTable(
+                name: "Categorias");
         }
     }
 }

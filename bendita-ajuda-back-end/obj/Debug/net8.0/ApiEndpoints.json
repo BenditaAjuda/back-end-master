@@ -1,0 +1,418 @@
+[
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.CategoriaController",
+    "Method": "GetCategorias",
+    "RelativePath": "Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[bendita_ajuda_back_end.Models.Categoria, bendita-ajuda-back-end, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.CategoriaController",
+    "Method": "Post",
+    "RelativePath": "Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "bendita_ajuda_back_end.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.CategoriaController",
+    "Method": "GetCategoria",
+    "RelativePath": "Categoria/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "bendita_ajuda_back_end.Models.Categoria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.CategoriaController",
+    "Method": "Put",
+    "RelativePath": "Categoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "bendita_ajuda_back_end.Models.Categoria",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.CategoriaController",
+    "Method": "Delete",
+    "RelativePath": "Categoria/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.CategoriaController",
+    "Method": "GetCategoriasDescricao",
+    "RelativePath": "Categoria/categoriasDescricao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[bendita_ajuda_back_end.DTOs.Categoria.CategoriaDescricaoDto, bendita-ajuda-back-end, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.CategoriaController",
+    "Method": "GetCategoriaServico",
+    "RelativePath": "Categoria/categoriaServico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "bendita_ajuda_back_end.Models.Categoria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.CategoriaController",
+    "Method": "GetCategoriasServicos",
+    "RelativePath": "Categoria/categoriasServicos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[bendita_ajuda_back_end.Models.Categoria, bendita-ajuda-back-end, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ContaController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "Conta/confirm-email",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "confirmEmailDto",
+        "Type": "bendita_ajuda_back_end.DTOs.Conta.ConfirmEmailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ContaController",
+    "Method": "ForgotUsernameOrPassword",
+    "RelativePath": "Conta/forgot-username-or-password/{email}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ContaController",
+    "Method": "Login",
+    "RelativePath": "Conta/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "bendita_ajuda_back_end.DTOs.Conta.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "bendita_ajuda_back_end.DTOs.Conta.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ContaController",
+    "Method": "RefreshUserToken",
+    "RelativePath": "Conta/refresh-user-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "bendita_ajuda_back_end.DTOs.Conta.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ContaController",
+    "Method": "Register",
+    "RelativePath": "Conta/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "bendita_ajuda_back_end.DTOs.Conta.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ContaController",
+    "Method": "ResendEMailConfirmationLink",
+    "RelativePath": "Conta/resend-email-confirmation-link/{email}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ContaController",
+    "Method": "ResetPassword",
+    "RelativePath": "Conta/reset-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetPasswordDto",
+        "Type": "bendita_ajuda_back_end.DTOs.Conta.ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.PrestadorController",
+    "Method": "GetPrestadoresPorId",
+    "RelativePath": "Prestador/prestadorServico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[bendita_ajuda_back_end.Models.Categoria, bendita-ajuda-back-end, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ServicoController",
+    "Method": "GetServicos",
+    "RelativePath": "Servico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[bendita_ajuda_back_end.Models.Servico, bendita-ajuda-back-end, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ServicoController",
+    "Method": "Post",
+    "RelativePath": "Servico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servico",
+        "Type": "bendita_ajuda_back_end.Models.Servico",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ServicoController",
+    "Method": "GetServico",
+    "RelativePath": "Servico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "bendita_ajuda_back_end.Models.Servico",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ServicoController",
+    "Method": "Put",
+    "RelativePath": "Servico/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servico",
+        "Type": "bendita_ajuda_back_end.Models.Servico",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bendita_ajuda_back_end.Controllers.ServicoController",
+    "Method": "Delete",
+    "RelativePath": "Servico/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
