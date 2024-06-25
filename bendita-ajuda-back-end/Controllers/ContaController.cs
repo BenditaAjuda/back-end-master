@@ -52,7 +52,7 @@ namespace bendita_ajuda_back_end.Controllers
 			if (!result.Succeeded)
 				return Unauthorized("Login ou senha incorretas");
 
-			return CreateApplicationUserDto(user);
+			return await CreateApplicationUserDto(user);
 
 		}
 
@@ -199,7 +199,7 @@ namespace bendita_ajuda_back_end.Controllers
 		public async Task<ActionResult<UserDto>> RefreshUserToken()
 		{
 			var user = await _userManager.FindByNameAsync(User.FindFirst(ClaimTypes.Email)?.Value);
-			return CreateApplicationUserDto(user);
+			return await CreateApplicationUserDto(user);
 		}
 
 		private async Task<bool> CheckEmailExistsAsync(string email)
@@ -207,13 +207,13 @@ namespace bendita_ajuda_back_end.Controllers
 			return await _userManager.Users.AnyAsync(e => e.Email == email.ToLower());
 		}
 		
-		private UserDto CreateApplicationUserDto(User user)
+		private async Task<UserDto> CreateApplicationUserDto(User user)
 		{
 			return new UserDto
 			{
 				FirstName = user.FirstName,
 				LastName = user.LastName,
-				JWT = _jwtService.CreateJWT(user)
+				JWT = await _jwtService.CreateJWT(user)
 			};
 		}
 
