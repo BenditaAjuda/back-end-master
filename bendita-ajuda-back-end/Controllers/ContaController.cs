@@ -3,6 +3,7 @@ using bendita_ajuda_back_end.DTOs.EmailSend;
 using bendita_ajuda_back_end.Models.User;
 using bendita_ajuda_back_end.Repositories.AuthServices;
 using bendita_ajuda_back_end.Repositories.EmailService;
+using bendita_ajuda_back_end.Statics;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -49,8 +50,31 @@ namespace bendita_ajuda_back_end.Controllers
 
 			var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
 
+            if(result.IsLockedOut)
+            {
+                return Unauthorized($"Sua conta está bloqueada até {user.LockoutEnd} (UTC time)");
+            }
+
 			if (!result.Succeeded)
+            {
+				if (!user.UserName.Equals(SD.AdminUserName))
+				{
+					// Increamenting AccessFailedCount of the AspNetUser by 1
+					await _userManager.AccessFailedAsync(user);
+				}
+
+				if (user.AccessFailedCount >= SD.MaximumLoginAttempts)
+				{
+					// Lock the user for one day
+					await _userManager.SetLockoutEndDateAsync(user, DateTime.UtcNow.AddDays(1));
+					return Unauthorized(string.Format("Conta bloqueda até {0} (UTC time)", user.LockoutEnd));
+				}
+
 				return Unauthorized("Login ou senha incorretas");
+            }
+
+			await _userManager.ResetAccessFailedCountAsync(user);
+			await _userManager.SetLockoutEndDateAsync(user, null);
 
 			return await CreateApplicationUserDto(user);
 
@@ -76,6 +100,7 @@ namespace bendita_ajuda_back_end.Controllers
 
 			if (!result.Succeeded)
 				return BadRequest(result.Errors);
+            await _userManager.AddToRoleAsync(userToAdd, SD.UsuarioRole);
 
 				try
 				{

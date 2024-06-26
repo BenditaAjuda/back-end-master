@@ -44,7 +44,7 @@ namespace bendita_ajuda_back_end.Repositories.ContextSeedService
 					FirstName = "Super",
 					LastName = "Admin",
 					UserName = "benditaajuda6@gmail.com",
-					Email = "benditaajuda6@gmail.com",
+					Email = SD.AdminUserName,
 					EmailConfirmed = true
 				};
 				await _userManager.CreateAsync(admin, "123456");
