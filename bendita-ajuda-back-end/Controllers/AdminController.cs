@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 namespace bendita_ajuda_back_end.Controllers
 {
 	[Authorize(Roles = "Super")]
-	[Route("api/[controller]")]
+	[Route("[controller]")]
 	[ApiController]
 	public class AdminController : ControllerBase
 	{
