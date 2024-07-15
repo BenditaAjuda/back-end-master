@@ -9,9 +9,9 @@ namespace bendita_ajuda_back_end.Statics
 		public const string ManagerRole = "Gerente";
 		public const string UsuarioRole = "Usuario";
 
-		//public const string AdminUserName = "benditaajuda6@gmail.com";
-		//public const string SuperAdminChangeNotAllowed = "Super Admin change is not allowed!";
-		//public const int MaximumLoginAttempts = 3;
+		public const string AdminUserName = "benditaajuda6@gmail.com";
+		public const string SuperAdminChangeNotAllowed = "Super não pode ser bloqueado";
+		public const int MaximumLoginAttempts = 3;
 
 		//public static bool VIPPolicy(AuthorizationHandlerContext context)
 		//{

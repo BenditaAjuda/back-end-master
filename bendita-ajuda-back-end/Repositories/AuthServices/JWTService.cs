@@ -3,6 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Identity;
 
 namespace bendita_ajuda_back_end.Repositories.AuthServices
 {
@@ -10,14 +11,17 @@ namespace bendita_ajuda_back_end.Repositories.AuthServices
 	{
 		private readonly IConfiguration _configuration;
 		private readonly SymmetricSecurityKey _symmetricSecurityKey;
+		private readonly UserManager<User> _userManager;
 
-		public JWTService(IConfiguration configuration)
+		public JWTService(IConfiguration configuration,
+						   UserManager<User> userManager)
 		{
 			_configuration = configuration;
 			_symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
+			_userManager = userManager;
 		}
 
-		public string CreateJWT(User user)
+		public async Task<string> CreateJWT(User user)
 		{
 			var userClaims = new List<Claim>
 			{
@@ -26,6 +30,9 @@ namespace bendita_ajuda_back_end.Repositories.AuthServices
 				new Claim(ClaimTypes.GivenName, user.FirstName),
 				new Claim(ClaimTypes.Surname, user.LastName)
 			};
+
+			var roles = await _userManager.GetRolesAsync(user);
+			userClaims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
 
 			var credentials = new SigningCredentials(_symmetricSecurityKey, SecurityAlgorithms.HmacSha512Signature);
 			var tokenDescriptor = new SecurityTokenDescriptor
