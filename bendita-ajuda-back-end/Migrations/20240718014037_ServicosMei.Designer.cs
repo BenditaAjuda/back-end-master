@@ -12,8 +12,8 @@ using bendita_ajuda_back_end.Data;
 namespace bendita_ajuda_back_end.Migrations
 {
     [DbContext(typeof(BenditaAjudaDbContext))]
-    [Migration("20240629162049_Second")]
-    partial class Second
+    [Migration("20240718014037_ServicosMei")]
+    partial class ServicosMei
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -243,6 +243,22 @@ namespace bendita_ajuda_back_end.Migrations
                     b.HasIndex("CategoriaId");
 
                     b.ToTable("Servicos");
+                });
+
+            modelBuilder.Entity("bendita_ajuda_back_end.Models.ServicosMei", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ServicosMei");
                 });
 
             modelBuilder.Entity("bendita_ajuda_back_end.Models.User.User", b =>

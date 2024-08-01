@@ -16,17 +16,32 @@ namespace bendita_ajuda_back_end.Controllers
 			_repository = repository;
 		}
 
-		[HttpGet("prestadorServico/{id:int}")]
-		public ActionResult<IEnumerable<Categoria>> GetPrestadoresPorId(int id)
+		[HttpGet("prestadorServico/{email}")]
+		public ActionResult<bool> VerificarExistenciaDePrestador(string email)
 		{
-			IEnumerable<Prestador> prestadores = _repository.GetPrestadoresPorServico(id);
+			bool prestadorExiste = _repository.ConferirSePrestadorEstaCadastrado(email);
 
-			if (prestadores is null || !prestadores.Any())
+			if (prestadorExiste)
 			{
-				return NotFound("Prestadores não encontrados");
+				return BadRequest(true);
 			}
-			
-			return Ok(prestadores);
+			else
+			{
+				return Ok(false);
+			}
 		}
+
+		//[HttpGet("prestadorServico/{id:int}")]
+		//public ActionResult<IEnumerable<Categoria>> GetPrestadoresPorId(int id)
+		//{
+		//	IEnumerable<Prestador> prestadores = _repository.GetPrestadoresPorServico(id);
+
+		//	if (prestadores is null || !prestadores.Any())
+		//	{
+		//		return NotFound("Prestadores não encontrados");
+		//	}
+
+		//	return Ok(prestadores);
+		//}
 	}
 }

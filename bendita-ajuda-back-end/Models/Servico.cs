@@ -15,10 +15,6 @@ namespace bendita_ajuda_back_end.Models
 		[Required]
 		[StringLength(300)]
 		public string? ImagemUrl { get; set; }
-		public int CategoriaId {  get; set; }
-		[JsonIgnore]
-		public Categoria? Categoria { get; set; }
-		[JsonIgnore]
 		public List<Prestador> Prestadores { get; set; }
 	}
 }

@@ -9,11 +9,6 @@ namespace bendita_ajuda_back_end.Models
 	[Table("Categorias")]
 	public class Categoria
 	{
-		public Categoria()
-		{
-			Servicos = new Collection<Servico>();
-		}
-		[Key]
         public int CategoriaId { get; set; }
 		[Required]
 		[StringLength(80)]
@@ -22,6 +17,5 @@ namespace bendita_ajuda_back_end.Models
 		[Required]
 		[StringLength(300)]
 		public string? ImagemUrl { get; set; }
-		public ICollection<Servico>? Servicos { get; set; }
 	}
 }

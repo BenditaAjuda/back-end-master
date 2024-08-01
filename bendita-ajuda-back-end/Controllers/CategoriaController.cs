@@ -72,31 +72,31 @@ namespace bendita_ajuda_back_end.Controllers
 			return Ok(categorias);
 		}
 
-		[HttpGet("categoriasServicos")]
-		public ActionResult<IEnumerable<Categoria>> GetCategoriasServicos()
-		{
-			IEnumerable<Categoria> categoriasServicos = _repository.GetCategoriasServicos();
+		//[HttpGet("categoriasServicos")]
+		//public ActionResult<IEnumerable<Categoria>> GetCategoriasServicos()
+		//{
+		//	IEnumerable<Categoria> categoriasServicos = _repository.GetCategoriasServicos();
 
-			if (categoriasServicos is null || !categoriasServicos.Any())
-			{
-				return NotFound("Nada encontrado");
-			}
+		//	if (categoriasServicos is null || !categoriasServicos.Any())
+		//	{
+		//		return NotFound("Nada encontrado");
+		//	}
 
-			return Ok(categoriasServicos);
-		}
+		//	return Ok(categoriasServicos);
+		//}
 
-		[HttpGet("categoriaServico/{id:int}")]
-		public ActionResult<Categoria> GetCategoriaServico(int id)
-		{
-			Categoria categoriasServico = _repository.GetCategoriaServico(id);
+		//[HttpGet("categoriaServico/{id:int}")]
+		//public ActionResult<Categoria> GetCategoriaServico(int id)
+		//{
+		//	Categoria categoriasServico = _repository.GetCategoriaServico(id);
 
-			if (categoriasServico is null)
-			{
-				return NotFound("Nada encontrado");
-			}
+		//	if (categoriasServico is null)
+		//	{
+		//		return NotFound("Nada encontrado");
+		//	}
 
-			return Ok(categoriasServico);
-		}
+		//	return Ok(categoriasServico);
+		//}
 
 		[HttpGet("{id:int}", Name = "ObterCategoria")]
 		public ActionResult<Categoria> GetCategoria(int id)
