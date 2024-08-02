@@ -1,8 +1,13 @@
-﻿namespace bendita_ajuda_back_end.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace bendita_ajuda_back_end.Models
 {
 	public class ServicosMei
 	{
-        public int Id { get; set; }
+		[Key]
+		public int Id { get; set; }
         public string Nome { get; set; }
     }
 }
+
