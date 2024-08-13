@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bendita-ajuda-back-end")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47e0459cd503f7dc3222025873a57a3ff7eacec1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+557db82bf6d6cec4a0788b486f40bb4cfd711ce5")]
 [assembly: System.Reflection.AssemblyProductAttribute("bendita-ajuda-back-end")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bendita-ajuda-back-end")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

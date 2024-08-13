@@ -8,6 +8,7 @@ namespace bendita_ajuda_back_end.Models
 		[Key]
 		public int Id { get; set; }
         public string Nome { get; set; }
-    }
+		public List<Prestador> Prestadores { get; set; }
+	}
 }
 

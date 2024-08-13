@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using bendita_ajuda_back_end.Data;
 
@@ -11,9 +12,11 @@ using bendita_ajuda_back_end.Data;
 namespace bendita_ajuda_back_end.Migrations
 {
     [DbContext(typeof(BenditaAjudaDbContext))]
-    partial class BenditaAjudaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240812225956_Relacionamento prestadoresServicoMei")]
+    partial class RelacionamentoprestadoresServicoMei
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
