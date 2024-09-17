@@ -7,8 +7,40 @@
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\prestadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\servicosmeicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\servicosmeicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\data\\benditaajudadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\data\\benditaajudadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\models\\servicosmei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\servicosmei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\repositories\\services\\prestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\services\\prestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\loggings\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\loggings\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\repositories\\services\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +59,8 @@
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\dtos\\servicodto\\servicodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\models\\servicosmei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\servicosmei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\servicosmeicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\servicosmeicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\repositories\\services\\servicomeirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\services\\servicomeirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\repositories\\services\\prestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\services\\prestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\repositories\\interfaces\\iservicosmeirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,18 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\repositories\\interfaces\\iprestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\repositories\\interfaces\\iprestadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\repositories\\authservices\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -125,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\dtos\\admin\\usuariosaddeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\dtos\\admin\\usuariosaddeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\loggings\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\loggings\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\dtos\\admin\\usuariosviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -216,6 +212,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\migrations\\20240723233425_retirarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\migrations\\20240723233425_retirarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\migrations\\20240812225956_relacionamento prestadoresservicomei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\migrations\\20240812225956_relacionamento prestadoresservicomei.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -225,7 +225,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -233,46 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServicoDto.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\ServicoDto\\ServicoDto.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\ServicoDto\\ServicoDto.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\ServicoDto\\ServicoDto.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\ServicoDto\\ServicoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T23:05:06.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PrestadorDto.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T23:04:53.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240812225956_Relacionamento prestadoresServicoMei.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T22:59:56.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ServicosMei.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\ServicosMei.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\ServicosMei.cs",
@@ -285,28 +246,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Prestador.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Prestador.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\Prestador.cs",
               "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Prestador.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Models\\Prestador.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA4wAoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T20:49:48.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Servico.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Servico.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\Servico.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Servico.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Models\\Servico.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T01:40:03.285Z",
               "EditorCaption": ""
             },
             {
@@ -317,27 +265,14 @@
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
               "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
               "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAywCkAAAADAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAswEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T17:31:29.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T21:28:06.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "BenditaAjudaDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Data\\BenditaAjudaDbContext.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Data\\BenditaAjudaDbContext.cs",
@@ -350,7 +285,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
+              "Title": "CustomerLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAB0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T12:48:51.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAkwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:32:45.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContaController.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ContaController.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\ContaController.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ContaController.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\ContaController.cs",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAzwEwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T17:18:57.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicoController.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T20:24:03.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicosMeiController.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ServicosMeiController.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\ServicosMeiController.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ServicosMeiController.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\ServicosMeiController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAABCwBUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:42:33.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PrestadorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:24:49.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ServicoMeiRepository.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\ServicoMeiRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\ServicoMeiRepository.cs",
@@ -362,7 +373,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Services\\CategoriaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T21:28:06.742Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Servico.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Servico.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\Servico.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Servico.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Models\\Servico.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T01:40:03.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20240812225956_Relacionamento prestadoresServicoMei.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Migrations\\20240812225956_Relacionamento prestadoresServicoMei.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T22:59:56.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PrestadorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:04:53.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServicoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\ServicoDto\\ServicoDto.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\ServicoDto\\ServicoDto.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\ServicoDto\\ServicoDto.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\ServicoDto\\ServicoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:05:06.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\CategoriaController.cs",
@@ -375,30 +446,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "PrestadorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Repositories\\Services\\PrestadorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T17:24:49.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ServicosMeiController.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ServicosMeiController.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\ServicosMeiController.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ServicosMeiController.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\ServicosMeiController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA3wB0AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:42:33.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\appsettings.json",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\appsettings.json",
@@ -406,12 +453,11 @@
               "RelativeToolTip": "bendita-ajuda-back-end\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-28T01:56:16.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T01:56:16.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Program.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Program.cs",
@@ -423,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ServicoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Services\\ServicoRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Services\\ServicoRepository.cs",
@@ -435,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IServicosMeiRepository.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicosMeiRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicosMeiRepository.cs",
@@ -447,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\Categoria.cs",
@@ -459,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ICategoriaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Interfaces\\ICategoriaRepository.cs",
@@ -471,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "IServicoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicoRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Interfaces\\IServicoRepository.cs",
@@ -483,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "IPrestadorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\Interfaces\\IPrestadorRepository.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\Interfaces\\IPrestadorRepository.cs",
@@ -495,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "20240724011047_RetirarCategoria2.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240724011047_RetirarCategoria2.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240724011047_RetirarCategoria2.cs",
@@ -507,43 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAmwAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T20:32:45.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ServicoController.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\ServicoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T20:24:03.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ContaController.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ContaController.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\ContaController.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\ContaController.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\ContaController.cs",
-              "ViewState": "AQIAAPsAAAAAAAAAAAAzwEwAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T17:18:57.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "20240724011206_RetirarCategoria3.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240724011206_RetirarCategoria3.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240724011206_RetirarCategoria3.cs",
@@ -555,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "bendita-ajuda-back-end.http",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\bendita-ajuda-back-end.http",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\bendita-ajuda-back-end.http",
@@ -591,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "20240723233425_RetirarCategoria.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240723233425_RetirarCategoria.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240723233425_RetirarCategoria.cs",
@@ -639,18 +649,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CustomerLogger.cs",
-              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
-              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
-              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
-              "RelativeToolTip": "bendita-ajuda-back-end\\Loggings\\CustomerLogger.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAswB0AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T12:48:51.147Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 29,
               "Title": "SD.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Statics\\SD.cs",
@@ -675,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "20240717225213_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20240717225213_Initial.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20240717225213_Initial.cs",
@@ -687,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "20240621153924_HP.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO1\\Desktop\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240621153924_HP.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\USUARIO1\\Desktop\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240621153924_HP.cs",
@@ -699,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "UsuariosViewDto.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\Admin\\UsuariosViewDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Admin\\UsuariosViewDto.cs",
@@ -711,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\Conta\\LoginDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Conta\\LoginDto.cs",
@@ -723,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\Conta\\RegisterDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Conta\\RegisterDto.cs",
@@ -735,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "ConfirmEmailDto.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\Conta\\ConfirmEmailDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Conta\\ConfirmEmailDto.cs",
@@ -747,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "ResetPasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\Conta\\ResetPasswordDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Conta\\ResetPasswordDto.cs",
@@ -759,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "20240621153803_HP.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO1\\Desktop\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240621153803_HP.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\USUARIO1\\Desktop\\conta-udemy\\bendita-ajuda-back-end\\Migrations\\20240621153803_HP.cs",
@@ -771,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Repositories\\EmailService\\EmailService.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Repositories\\EmailService\\EmailService.cs",
@@ -783,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "CustomLoggerProvider.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProvider.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Loggings\\CustomLoggerProvider.cs",
@@ -795,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "EmailSendDto.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\EmailSend\\EmailSendDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\EmailSend\\EmailSendDto.cs",
@@ -807,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "bendita-ajuda-back-end.csproj",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj",
@@ -819,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "CategoriaDescricaoDto.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\Categoria\\CategoriaDescricaoDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Categoria\\CategoriaDescricaoDto.cs",
@@ -831,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\Conta\\UserDto.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\Conta\\UserDto.cs",
@@ -843,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "CustomLoggerProviderConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Loggings\\CustomLoggerProviderConfiguration.cs",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Loggings\\CustomLoggerProviderConfiguration.cs",
@@ -855,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Properties\\launchSettings.json",
@@ -867,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "20240528020347_Inicial2.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020347_Inicial2.cs",
               "RelativeDocumentMoniker": "..\\..\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020347_Inicial2.cs",
@@ -878,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "20240530211023_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda\\back-end\\bendita-ajuda-back-end\\Migrations\\20240530211023_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\bendita-ajuda\\back-end\\bendita-ajuda-back-end\\Migrations\\20240530211023_Initial.cs",
@@ -889,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "20240528020232_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs",
               "RelativeDocumentMoniker": "..\\..\\bendita-ajuda-8\\bendita-ajuda-back-end\\bendita-ajuda-back-end\\Migrations\\20240528020232_Inicial.cs",

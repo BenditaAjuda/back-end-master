@@ -62,6 +62,38 @@ namespace bendita_ajuda_back_end.Controllers
 			return Ok(prestador);
 		}
 
+		[HttpGet("teste1/{id}")]
+		public ActionResult<List<ServicosMei>> Teste1(int id)
+		{
+			var servicosMeiList = _context.Prestadores
+		.Where(p => p.PrestadorId == id)
+		.SelectMany(p => p.ServicosMei)
+		.ToList();
+
+			return servicosMeiList;
+		}
+
+
+		//[HttpGet("teste2/{id}")]
+		//public ActionResult<bool> teste2(string email)
+		//{
+		//	var prestadorWithServicos = _context.Prestadores
+		//  .Include(p => p.ServicosMeis)
+		//  .FirstOrDefault(p => p.PrestadorId == prestadorId);
+
+		//var servicosMeiList = prestadorWithServicos?.ServicosMeis.ToList();
+		//}
+
+		//[HttpGet("teste3/{id}")]
+		//public ActionResult<bool> teste3(string email)
+		//{
+		//	bool prestadorExiste = _repository.ConferirSePrestadorEstaCadastrado(email);
+
+		//var servicosMeiWithPrestadores = _context.ServicosMeis
+		//.Include(sm => sm.Prestadores)
+		//.ToList();
+		//}
+
 		//[HttpGet("prestadorServico/{id:int}")]
 		//public ActionResult<IEnumerable<Categoria>> GetPrestadoresPorId(int id)
 		//{
