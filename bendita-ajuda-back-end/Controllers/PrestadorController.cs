@@ -1,5 +1,6 @@
 ﻿using bendita_ajuda_back_end.Data;
 using bendita_ajuda_back_end.DTOs.PrestadorDto;
+using bendita_ajuda_back_end.DTOs.ServicoDto;
 using bendita_ajuda_back_end.Models;
 using bendita_ajuda_back_end.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http;
@@ -62,49 +63,57 @@ namespace bendita_ajuda_back_end.Controllers
 			return Ok(prestador);
 		}
 
-		[HttpGet("teste1/{id}")]
-		public ActionResult<List<ServicosMei>> Teste1(int id)
+		[HttpGet("servicosMeiPrestador/{email}")]
+		public ActionResult<List<ServicosMei>> ConsultarServicosPorPrestador(string email)
 		{
 			var servicosMeiList = _context.Prestadores
-		.Where(p => p.PrestadorId == id)
-		.SelectMany(p => p.ServicosMei)
-		.ToList();
+			.Where(p => p.Email == email)
+			.SelectMany(p => p.ServicosMei)
+			.ToList();
 
 			return servicosMeiList;
 		}
 
+		[HttpGet("dadosPrestador/{email}")]
+		public ActionResult<PrestadorDto> ConsultarDadosPrestador(string email)
+		{
+			var prestadorDto = _context.Prestadores
+				.Where(p => p.Email == email)
+				.Select(p => new PrestadorDto
+				{
+					Logradouro = p.Logradouro,
+					Bairro = p.Bairro,
+					Cidade = p.Cidade,
+					Estado = p.Estado,
+					Nome = p.Nome,
+					Email = p.Email,
+					TelefoneCelular = p.TelefoneCelular,
+					TelefoneFixo = p.TelefoneFixo,
+					Complemento = p.Complemento,
+					Cep = p.Cep,
 
-		//[HttpGet("teste2/{id}")]
-		//public ActionResult<bool> teste2(string email)
-		//{
-		//	var prestadorWithServicos = _context.Prestadores
-		//  .Include(p => p.ServicosMeis)
-		//  .FirstOrDefault(p => p.PrestadorId == prestadorId);
+					// Mapping ServicosMei to ServicosDto
+					ServicosDto = p.ServicosMei.Select(s => new ServicosDto
+					{
+						Nome = s.Nome
+					}).ToList()
+				})
+				.FirstOrDefault();
 
-		//var servicosMeiList = prestadorWithServicos?.ServicosMeis.ToList();
-		//}
+			if (prestadorDto == null)
+			{
+				return NotFound();
+			}
 
-		//[HttpGet("teste3/{id}")]
-		//public ActionResult<bool> teste3(string email)
-		//{
-		//	bool prestadorExiste = _repository.ConferirSePrestadorEstaCadastrado(email);
+			return Ok(prestadorDto);
+		}
 
-		//var servicosMeiWithPrestadores = _context.ServicosMeis
-		//.Include(sm => sm.Prestadores)
-		//.ToList();
-		//}
+		[HttpGet("prestadoresPorServico/{id}")]
+		public ActionResult<List<Prestador>> ConsultarPrestadoresPorServico(int id)
+		{
+			var prestadores = _context.Prestadores.Where(p => p.ServicosMei.Any(s => s.Id == id)).ToList();
+			return Ok(prestadores);
+		}
 
-		//[HttpGet("prestadorServico/{id:int}")]
-		//public ActionResult<IEnumerable<Categoria>> GetPrestadoresPorId(int id)
-		//{
-		//	IEnumerable<Prestador> prestadores = _repository.GetPrestadoresPorServico(id);
-
-		//	if (prestadores is null || !prestadores.Any())
-		//	{
-		//		return NotFound("Prestadores não encontrados");
-		//	}
-
-		//	return Ok(prestadores);
-		//}
 	}
 }
