@@ -4,6 +4,7 @@ namespace bendita_ajuda_back_end.Repositories.Interfaces
 {
 	public interface IPrestadorRepository
 	{
-		IEnumerable<Prestador> GetPrestadoresPorServico(int id);
+		//IEnumerable<Prestador> GetPrestadoresPorServico(int id);
+		bool ConferirSePrestadorEstaCadastrado(string email);
 	}
 }

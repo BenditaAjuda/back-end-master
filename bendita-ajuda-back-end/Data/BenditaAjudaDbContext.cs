@@ -15,5 +15,6 @@ namespace bendita_ajuda_back_end.Data
 		public DbSet<Categoria> Categorias { get; set; }
 		public DbSet<Servico> Servicos { get; set; }
 		public DbSet<Prestador> Prestadores { get; set; }
+		public DbSet<ServicosMei> ServicosMei { get; set; }
 	}
 }

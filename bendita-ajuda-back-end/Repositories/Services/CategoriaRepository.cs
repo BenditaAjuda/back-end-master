@@ -28,19 +28,19 @@ namespace bendita_ajuda_back_end.Repositories.Services
 				throw new Exception(ex.Message);
 			}
 		}
-		public Categoria GetCategoriaServico(int id)
-		{
-			try
-			{
-				Categoria categoria = _context.Categorias.Include(s => s.Servicos).FirstOrDefault(c => c.CategoriaId == id);
+		//public Categoria GetCategoriaServico(int id)
+		//{
+		//	try
+		//	{
+		//		Categoria categoria = _context.Categorias.Include(s => s.Servicos).FirstOrDefault(c => c.CategoriaId == id);
 			
-				return categoria;
-			}
-			catch (Exception ex)
-			{
-				throw new Exception(ex.Message);
-			}
-		}
+		//		return categoria;
+		//	}
+		//	catch (Exception ex)
+		//	{
+		//		throw new Exception(ex.Message);
+		//	}
+		//}
 		public IEnumerable<Categoria> GetCategorias()
 		{
 			try
@@ -55,19 +55,19 @@ namespace bendita_ajuda_back_end.Repositories.Services
 			}
 		}
 
-		public IEnumerable<Categoria> GetCategoriasServicos()
-		{
-			try
-			{
-				IEnumerable<Categoria> categorias = _context.Categorias.Include(s => s.Servicos).AsNoTracking().ToList();
+		//public IEnumerable<Categoria> GetCategoriasServicos()
+		//{
+		//	try
+		//	{
+		//		IEnumerable<Categoria> categorias = _context.Categorias.Include(s => s.Servicos).AsNoTracking().ToList();
 
-				return categorias;
-			}
-			catch (Exception ex)
-			{
-				throw new Exception(ex.Message);
-			}
-		}
+		//		return categorias;
+		//	}
+		//	catch (Exception ex)
+		//	{
+		//		throw new Exception(ex.Message);
+		//	}
+		//}
 		public Categoria Create(Categoria categoria)
 		{
 			if (categoria is null)

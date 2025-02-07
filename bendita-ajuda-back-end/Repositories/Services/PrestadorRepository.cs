@@ -14,6 +14,26 @@ namespace bendita_ajuda_back_end.Repositories.Services
 			_context = context;
 		}
 
+		public bool ConferirSePrestadorEstaCadastrado(string email)
+		{
+			try
+			{
+				Prestador prestador = _context.Prestadores.FirstOrDefault(e => e.Email == email);
+				if (prestador is null)
+				{
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+			catch (Exception ex)
+			{
+				throw new Exception(ex.Message);
+			}
+		}
+
 		public IEnumerable<Prestador> GetPrestadoresPorServico(int id)
 		{
 			try

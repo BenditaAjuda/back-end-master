@@ -169,6 +169,21 @@ namespace bendita_ajuda_back_end.Migrations
                     b.ToTable("PrestadorServico");
                 });
 
+            modelBuilder.Entity("PrestadorServicosMei", b =>
+                {
+                    b.Property<int>("PrestadoresPrestadorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ServicosMeiId")
+                        .HasColumnType("int");
+
+                    b.HasKey("PrestadoresPrestadorId", "ServicosMeiId");
+
+                    b.HasIndex("ServicosMeiId");
+
+                    b.ToTable("PrestadorServicosMei");
+                });
+
             modelBuilder.Entity("bendita_ajuda_back_end.Models.Categoria", b =>
                 {
                     b.Property<int>("CategoriaId")
@@ -203,10 +218,40 @@ namespace bendita_ajuda_back_end.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("PrestadorId"));
 
-                    b.Property<string>("Endereco")
+                    b.Property<string>("Bairro")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Cep")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Cidade")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Complemento")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Estado")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Lat")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Logradouro")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Long")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Nome")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("TelefoneCelular")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("TelefoneFixo")
                         .HasColumnType("longtext");
 
                     b.HasKey("PrestadorId");
@@ -222,9 +267,6 @@ namespace bendita_ajuda_back_end.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("ServicoId"));
 
-                    b.Property<int>("CategoriaId")
-                        .HasColumnType("int");
-
                     b.Property<string>("ImagemUrl")
                         .IsRequired()
                         .HasMaxLength(300)
@@ -237,9 +279,23 @@ namespace bendita_ajuda_back_end.Migrations
 
                     b.HasKey("ServicoId");
 
-                    b.HasIndex("CategoriaId");
-
                     b.ToTable("Servicos");
+                });
+
+            modelBuilder.Entity("bendita_ajuda_back_end.Models.ServicosMei", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ServicosMei");
                 });
 
             modelBuilder.Entity("bendita_ajuda_back_end.Models.User.User", b =>
@@ -383,20 +439,19 @@ namespace bendita_ajuda_back_end.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("bendita_ajuda_back_end.Models.Servico", b =>
+            modelBuilder.Entity("PrestadorServicosMei", b =>
                 {
-                    b.HasOne("bendita_ajuda_back_end.Models.Categoria", "Categoria")
-                        .WithMany("Servicos")
-                        .HasForeignKey("CategoriaId")
+                    b.HasOne("bendita_ajuda_back_end.Models.Prestador", null)
+                        .WithMany()
+                        .HasForeignKey("PrestadoresPrestadorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Categoria");
-                });
-
-            modelBuilder.Entity("bendita_ajuda_back_end.Models.Categoria", b =>
-                {
-                    b.Navigation("Servicos");
+                    b.HasOne("bendita_ajuda_back_end.Models.ServicosMei", null)
+                        .WithMany()
+                        .HasForeignKey("ServicosMeiId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
