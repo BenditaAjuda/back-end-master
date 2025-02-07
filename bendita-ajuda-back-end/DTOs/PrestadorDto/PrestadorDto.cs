@@ -14,6 +14,8 @@ namespace bendita_ajuda_back_end.DTOs.PrestadorDto
 		public string TelefoneFixo { get; set; }
 		public string Complemento { get; set; }
 		public string Cep { get; set; }
+        public string Lat { get; set; }
+		public string Long { get; set; }
 
 		public List<ServicosDto> ServicosDto { get; set; }
 	}

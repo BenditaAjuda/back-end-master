@@ -15,6 +15,8 @@ namespace bendita_ajuda_back_end.Models
 		public string Cidade { get; set; }
 		public string Estado { get; set; }
 		public string Complemento { get; set; }
+		public string Lat { get; set; }
+		public string Long { get; set; }
 		public List<Servico> Servicos { get; set; }
 		public List<ServicosMei> ServicosMei { get; set; }
 	}

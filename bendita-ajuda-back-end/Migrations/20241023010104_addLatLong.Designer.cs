@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using bendita_ajuda_back_end.Data;
 
@@ -11,9 +12,11 @@ using bendita_ajuda_back_end.Data;
 namespace bendita_ajuda_back_end.Migrations
 {
     [DbContext(typeof(BenditaAjudaDbContext))]
-    partial class BenditaAjudaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241023010104_addLatLong")]
+    partial class addLatLong
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -236,14 +239,14 @@ namespace bendita_ajuda_back_end.Migrations
                     b.Property<string>("Estado")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Lat")
-                        .HasColumnType("longtext");
+                    b.Property<decimal>("Lat")
+                        .HasColumnType("decimal(65,30)");
 
                     b.Property<string>("Logradouro")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Long")
-                        .HasColumnType("longtext");
+                    b.Property<decimal>("Long")
+                        .HasColumnType("decimal(65,30)");
 
                     b.Property<string>("Nome")
                         .HasColumnType("longtext");

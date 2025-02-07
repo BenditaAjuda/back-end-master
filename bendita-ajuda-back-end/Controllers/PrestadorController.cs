@@ -53,6 +53,8 @@ namespace bendita_ajuda_back_end.Controllers
 				TelefoneCelular = prestadorDto.TelefoneCelular,
 				TelefoneFixo = prestadorDto.TelefoneFixo,
 				Complemento = prestadorDto.Complemento,
+				Lat = prestadorDto.Lat,
+				Long = prestadorDto.Long,
 				Cep = prestadorDto.Cep,
 				ServicosMei = servicos // Associate the related ServicoMei entities
 			};

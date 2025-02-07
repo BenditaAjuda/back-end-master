@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\models\\prestador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\controllers\\prestadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\controllers\\prestadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\dtos\\prestadordto\\prestadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\dtos\\prestadordto\\prestadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\migrations\\20241023014909_addlatlongstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\migrations\\20241023014909_addlatlongstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|c:\\users\\casa\\source\\repos\\benditaajuda\\back-end-master\\bendita-ajuda-back-end\\migrations\\20241023010104_addlatlong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A68057-9B2A-416D-ACDA-D16F325267E8}|bendita-ajuda-back-end\\bendita-ajuda-back-end.csproj|solutionrelative:bendita-ajuda-back-end\\migrations\\20241023010104_addlatlong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrestadorController.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Controllers\\PrestadorController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwCUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T01:56:45.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrestadorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\DTOs\\PrestadorDto\\PrestadorDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T01:52:49.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241023014909_addLatLongString.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20241023014909_addLatLongString.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20241023014909_addLatLongString.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20241023014909_addLatLongString.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Migrations\\20241023014909_addLatLongString.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T01:49:09.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241023010104_addLatLong.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20241023010104_addLatLong.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Migrations\\20241023010104_addLatLong.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Migrations\\20241023010104_addLatLong.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Migrations\\20241023010104_addLatLong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T01:01:04.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prestador.cs",
+              "DocumentMoniker": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Prestador.cs",
+              "RelativeDocumentMoniker": "bendita-ajuda-back-end\\Models\\Prestador.cs",
+              "ToolTip": "C:\\Users\\Casa\\source\\repos\\benditaAjuda\\back-end-master\\bendita-ajuda-back-end\\Models\\Prestador.cs",
+              "RelativeToolTip": "bendita-ajuda-back-end\\Models\\Prestador.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA5wBIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T00:58:56.998Z",
+              "EditorCaption": ""
             }
           ]
         }
